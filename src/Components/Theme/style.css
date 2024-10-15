@@ -1,0 +1,25 @@
+:root {
+  --background: #ffffff;
+  --text-primary: #000;
+  --button-bg: #000;
+  --button-text: #ffffff;
+}
+
+[data-theme="dark"] {
+  --background: #000;
+  --text-primary: #ffffff;
+  --button-bg: #ffffff;
+  --button-text: #000;
+}
+
+.main {
+  background-color: var(--background);
+  color: var(--text-primary);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s;
+  justify-content: center;
+}

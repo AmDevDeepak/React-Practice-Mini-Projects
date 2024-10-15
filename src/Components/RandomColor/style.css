@@ -1,0 +1,26 @@
+.random-color{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vw;
+    flex-direction: column;
+}
+
+#h3{
+    padding: 2vw;
+    font-size: 1.5vw;
+}
+
+button{
+    padding: 12px 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: white;
+    background-color: brown;
+    font-size: 2vw;
+}
+
+.random-color h2{
+    font-size: 5vw;
+    padding-top: 10vw;
+}
